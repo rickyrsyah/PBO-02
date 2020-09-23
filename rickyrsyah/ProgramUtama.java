@@ -33,19 +33,19 @@ public class ProgramUtama {
             if (totalHargaKeramikA < totalHargaKeramikC) {
                 System.out.println("Didapat harga paling murah untuk "+keramikA.label);
                 System.out.println("Yaitu dengan harga: Rp "+totalHargaKeramikA);
-                System.out.println("Hemat Rp "+(totalHargaKeramikB-totalHargaKeramikA)+" dari"+.keramikB.label);
-                System.out.println("Hemat Rp "+(totalHargaKeramikC-totalHargaKeramikA)+" dari"+.keramikC.label);
+                System.out.println("Hemat Rp "+(totalHargaKeramikB-totalHargaKeramikA)+" dari"+keramikB.label);
+                System.out.println("Hemat Rp "+(totalHargaKeramikC-totalHargaKeramikA)+" dari"+keramikC.label);
             } else {
                 System.out.println("Didapat harga paling murah untuk "+keramikC.label);
                 System.out.println("Yaitu dengan harga: Rp "+totalHargaKeramikC);
-                System.out.println("Hemat Rp "+(totalHargaKeramikA-totalHargaKeramikC)+" dari"+.keramikA.label);
-                System.out.println("Hemat Rp "+(totalHargaKeramikB-totalHargaKeramikC)+" dari"+.keramikB.label);
+                System.out.println("Hemat Rp "+(totalHargaKeramikA-totalHargaKeramikC)+" dari"+keramikA.label);
+                System.out.println("Hemat Rp "+(totalHargaKeramikB-totalHargaKeramikC)+" dari"+keramikB.label);
             }
         } else if (totalHargaKeramikB < totalHargaKeramikC) {
             System.out.println("Didapat harga paling murah untuk "+keramikB.label);
             System.out.println("Yaitu dengan harga: Rp "+totalHargaKeramikB);
-            System.out.println("Hemat Rp "+(totalHargaKeramikA-totalHargaKeramikB)+" dari"+.keramikA.label);
-            System.out.println("Hemat Rp "+(totalHargaKeramikC-totalHargaKeramikB)+" dari"+.keramikC.label);
+            System.out.println("Hemat Rp "+(totalHargaKeramikA-totalHargaKeramikB)+" dari"+keramikA.label);
+            System.out.println("Hemat Rp "+(totalHargaKeramikC-totalHargaKeramikB)+" dari"+keramikC.label);
         }
     }
 }
