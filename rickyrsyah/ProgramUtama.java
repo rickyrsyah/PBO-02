@@ -28,6 +28,12 @@ public class ProgramUtama {
         int totalHargaKeramikB = minBoxKeramikB * keramikB.hargaPerBox;
         int totalHargaKeramikC = minBoxKeramikC * keramikC.hargaPerBox;
 
+        // menampilkan semua total harga tiap keramik
+        System.out.println("Untuk "+ keramikA.label + " membutuhkan biaya sebesar Rp " + totalHargaKeramikA);
+        System.out.println("Untuk "+ keramikB.label + " membutuhkan biaya sebesar Rp " + totalHargaKeramikB);
+        System.out.println("Untuk "+ keramikC.label + " membutuhkan biaya sebesar Rp " + totalHargaKeramikC);
+        System.out.println();
+
         // memilih yang paling murah
         if (totalHargaKeramikA < totalHargaKeramikB) {
             if (totalHargaKeramikA < totalHargaKeramikC) {

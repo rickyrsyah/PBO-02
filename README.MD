@@ -14,6 +14,7 @@ Sesampainya di toko, Pak Bejo kebingungan dikarenakan ada 3 pilihan keramik yang
 ## Penyelesaian Masalah 
 Melalui program Java diharapkan dapat membantu Pak Bejo memilih keramik yang akan dibeli.
 Yaitu Keramik dengan harga belinya paling murah sesuai kebutuhannya.
+Tidak lupa juga menampilkan total harga tiap keramiknya.
 Dengan ketentuan:
 * Menggunakan method yang bersifat non-void
 * Menggunakan constructor
